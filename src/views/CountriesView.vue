@@ -20,6 +20,8 @@ export default {
     filtrarPais(e) {
       // TODO: Implementar. filtra el país de acuerdo al valor del input. Hint: Recuerda la función filter
       const filtro = e.target.value;
+      if(this.paisActual==filtro);
+        return this.paisActual;
     },
   },
 };
